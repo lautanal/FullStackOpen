@@ -1,0 +1,36 @@
+title Exercise 0_4
+
+note over browser:
+The broser makes a POST-request to server address /exampleapp/new_note
+The request contains a new note as a parameter named note
+The server responds with status code 302 (redirect)
+end note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
+server->browser: STATUS 302
+
+note over browser:
+The broser is redirected to make a new GET-request to server address /exampleapp/notes
+end note
+
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/notes
+server->browser: HTML-code
+
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
+server->browser: main.css
+
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.js
+server->browser: main.js
+
+note over browser:
+The browser executes the js-code,
+which requests JSON data from the server
+end note
+
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
+server->browser: [{ content: "Happy New Year!", date: "2023-01-01" }, ...]
+
+note over browser:
+The browser executes the event handler, 
+which renders the modified note list on the display
+end note

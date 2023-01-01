@@ -1,0 +1,15 @@
+title Exercise 0_5
+
+note over browser:
+The broser makes a POST-request to server address /exampleapp/new_note_spa
+The request contains the new note in JSON-format
+The server returns status code 201 (created)
+end note
+
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
+server->browser: STATUS 201
+
+note over browser:
+The browser executes the event handler, 
+which renders the modified note list on the display
+end note
