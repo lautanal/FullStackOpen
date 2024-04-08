@@ -33,9 +33,7 @@ const App = () => {
             .then(updatedPerson=> {
               setPersonList(persons.map(person => person.id !== oldPerson.id ? person : updatedPerson))
               setMessage(`${updatedPerson.name}: New number added to phonebook.`)
-              setTimeout(() => {
-                setMessage(null)
-              }, 5000)
+              setTimeout(() => {setMessage(null)}, 5000)
             })  
       }
     } else {
