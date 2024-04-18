@@ -1,6 +1,6 @@
 # Full Stack Open 2023
 
-# [Part 10- Fundamentals of Web apps](https://fullstackopen.com/en/part0)
+# [Part 0- Fundamentals of Web apps](https://fullstackopen.com/en/part0)
 
 # [Part 1 - Introduction to React](https://fullstackopen.com/en/part1)
 
