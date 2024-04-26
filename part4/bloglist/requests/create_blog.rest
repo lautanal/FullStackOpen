@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjY2MmJkZWI2ZDNhNWM2YWY0MWVlOWE3ZCIsImlhdCI6MTcxNDE1MTE1MywiZXhwIjoxNzE0MTU0NzUzfQ.FrfHFHGwcaPAqIKazDnvxiCClBoYLr0t3NLMS2W-U4M
+
+{
+  "title": "Empirical string new updated reduction",
+  "author": "Edsger W. DingDong",
+  "url": "http://www.u.arizona.edu/~rubinson/copyright_violations/Go_To_Considered_Harmful.html",
+  "likes": "5"
+}
