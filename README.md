@@ -7,3 +7,5 @@
 # [Part 2 - Communicating with server](https://fullstackopen.com/en/part2)
 
 # [Part 3 - Programming a server with NodeJS and Express](https://fullstackopen.com/en/part3)
+
+# [Part 4 - Testing Express servers, user administration](https://fullstackopen.com/en/part4)
